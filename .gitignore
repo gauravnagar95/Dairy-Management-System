@@ -3,6 +3,5 @@
 __pycache__
 env
 db.sqlite3
-MyDairy/static
 MyDairy/dairyapp/migrations
 .DS_Store
