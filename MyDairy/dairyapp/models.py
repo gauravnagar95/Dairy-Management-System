@@ -92,3 +92,6 @@ class Customerledger(models.Model):
     price = models.FloatField(max_length=1000000,db_index=True,default=0.0)
     quantity = models.FloatField(max_length=1000000,db_index=True,default=0.0)
     total = models.FloatField(max_length=1000000,db_index=True,default=0.0)
+
+    def __str__(self):
+        return f"{self.related_customer}"
