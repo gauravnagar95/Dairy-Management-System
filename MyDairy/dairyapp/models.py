@@ -94,4 +94,4 @@ class Customerledger(models.Model):
     total = models.FloatField(max_length=1000000,db_index=True,default=0.0)
 
     def __str__(self):
-        return f"{self.related_customer}"
+        return self.related_customer
