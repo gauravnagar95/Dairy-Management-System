@@ -13,8 +13,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 
-EMAIL_HOST_USER = 'your Email id'
-EMAIL_HOST_PASSWORD = 'yourpassword'
+EMAIL_HOST_USER = 'Enter your Email id'
+EMAIL_HOST_PASSWORD = 'Enter your Email Password'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL=False
@@ -99,8 +99,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
-        'USER': 'yourusername',
-        'PASSWORD': 'yourpassword',
+        'USER': 'postgres',
+        'PASSWORD': 'Enter your Password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -160,4 +160,3 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-
