@@ -1,4 +1,4 @@
 Django~=2.0.6
-Pillow~=6.0.0
+Pillow~=6.2.1
 django-crispy-forms~=1.7.2
 psycopg2~=2.8.2
